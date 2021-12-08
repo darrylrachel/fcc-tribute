@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+}
+#main {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.profile__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  width: 400px;
+}
+.border {
+  border-right: 4px solid rgba(43, 43, 43, 0.726);
+  opacity: 0.5;
+  border-radius: 8px;
+  height: 350px;
+  position: relative;
+  top: 120px;
+}
+.summary__section {
+  width: 800px;
+}
+.image {
+  border-radius: 100px;
+  width: 100%;
+  max-width: 125px;
+  position: relative;
+  left: 135px;
+}
+#img-caption {
+  color:rgb(87, 87, 87);
+  font-size: 10px;
+  text-align: center;
+  padding: 0 55px;
+  font-style: italic;
+}
+.vitals {
+  padding-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.title {
+  font-weight: bold;
+}
+.summary {
+  padding: 30px 60px;
+}
+.headline {
+  font-size: 28px;
+}
+.stat {
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.stats-table {
+  padding-top: 20px;
+}
+.value {
+  padding-left: 40px;
+  font-size: 14px;
+}
+.key {
+  font-size: 14px;
+  font-weight: bold;
+}
